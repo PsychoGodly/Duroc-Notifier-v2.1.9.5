@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" package="com.HoussamElouafi.DurocNotifier" android:installLocation="auto" android:versionName="2.1.9.5">
+	<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="30" />
+	<application android:allowBackup="true" android:label="Duroc Notifier" android:roundIcon="@mipmap/ic_launcher_foreground" android:supportsRtl="true" android:theme="@style/AppTheme" android:icon="@drawable/app_icon"></application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL" />
+	<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.BIND_AUTOFILL_SERVICE" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE" />
+	<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+	<uses-permission android:name="android.permission.RECEIVE_MMS" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.SMS_FINANCIAL_TRANSACTIONS" />
+	<uses-permission android:name="android.permission.WRITE_SMS" />
+	<uses-permission android:name="android.permission.BROADCAST_SMS" />
+</manifest>
