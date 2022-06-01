@@ -8,7 +8,15 @@ Version  : 2.1.9.5
 Type     : Client-Server Application
 OS       : Android
 
+BRIEF :
 
+The ability to send synced data of the factory and sending new data to the admin ...
+
+THREE ADMINS TYPES :
+
+- App User Admin : ALL
+- App Code Admin : Developper
+- DB Admin       : Developper, or other agent
 
 HOW TO INSTALL :
 
@@ -19,5 +27,11 @@ HOW TO INSTALL :
 5-Plug an android device to the machine(make sure USB Debugging is working; you can find it Developer Options in Android Settings)
 6-Click debug and wait till app get opened
 
+NOTE :
+
+Change app parametrers to your own database.
+the app works on two databases 
+    - Users
+    - Your Own DB
 
 
